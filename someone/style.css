@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    margin:0px;
+    padding:0px;
+    font-family: 'KIMM_Bold';
+}
+
+#home {
+    width: 1300px;
+    height: 656px;
+    background-color: rgb(255, 209, 232);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,h2{
+    color: rgb(204, 19, 0);
+}
