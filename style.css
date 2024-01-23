@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'GoryeongStrawberry';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/GoryeongStrawberry.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin:0px;
+    padding:0px;
+    font-family: 'GoryeongStrawberry';
+}
+
+
+body {
+    background-color: rgb(255, 209, 232);
+}
+
+.home {
+    position: relative;
+    text-align: center;
+
+}
+
+/* 폰트가 반응형이 아니라서 맘에 안듦 */
+#home_font{
+    position: absolute;
+    top: 130px;
+    right: 530px;
+}
+
+
+h1,h2{
+    color: rgb(204, 19, 0);
+}
+
