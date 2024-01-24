@@ -3,17 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 
-    <title>썸원</title>
+    <title>썸원 홈</title>
 </head>
-<body>
-    <div id="home">
-        <div>
-            <h1>SomeOne</h1>
-            <h2>사랑하는 사람의 마음이 궁금해?</h2>
-        </div>
-        <img src="images/home.jpg" alt="홈이미지">
+<body >
+    
+    <div class="home">
+        <img src="images/home.jpg" alt="홈이미지" style="height: 100%;"><br>
+        <h1 id="home_font">someone<br>
+        사랑하는 사람의 마음이 궁금해?</h1>
+        <div id="home_login">
+            <input type="text" placeholder="아이디"><br>
+            <input type="password" placeholder="비밀번호"><br>
+            <button type="button">로그인</button><br>
+            <button id="btn2" type="button" onclick="location.href='join.html';">회원가입</button>
+        </div>  
     </div>
+
+<script>
+    
+</script>    
+    
 </body>
 </html>

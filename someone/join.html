@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="join.css">
+    <title>썸원 회원가입</title>
+</head>
+<body>
+    <div class="home">
+        <img src="images/home.jpg" alt="홈이미지" style="height: 100%;"><br>
+        <h1 id="home_font">회원가입</h1>
+    </div>
+    <div class="join_form">
+        <input type="text" placeholder="아이디">
+        <button type="button">중복확인</button><br>
+        <input type="text" placeholder="비밀번호"><br>
+        <input type="text" placeholder="비밀번호 확인"><br>
+        <input type="text" placeholder="이름"><br>
+        <input type="email" placeholder="이메일"><br>
+        <button type="button" onclick="join_create()" style="width: 203px;">계정 생성</button><br>
+
+    </div>
+
+<script>
+    function join_create(){
+        if(confirm("계정 생성을 완료하시겠습니까?")){
+            alert('계정 생성이 완료 되었습니다.');
+            location.href="index.html"
+        }else{
+            alert('계정 생성이 취소 되었습니다.');
+            location.reload(true);
+        }
+    }
+</script>
+</body>
+</html>
