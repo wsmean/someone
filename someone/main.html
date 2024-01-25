@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>메인화면</title>
+</head>
+<body>
+    <div class="home">
+        <div class="menu">
+            <div id="profile">
+                <img src="images/profile.png" alt="프로필사진" style="width: 60px;"><br>
+                <div id="hi">
+                    아이디<br>
+                    우수민님 방문을 환영해요!
+                </div>
+            </div>
+                <a href="#">❤️ 질문 작성하기</a><br>
+                <a href="#">🧡 질문 목록보기</a><br>
+                <a href="#">💛 연결 및 해제하기</a><br>
+                <a href="#">💚 불편 사항 메일 보내기</a><br>
+            
+                <button id="btn1" onclick="location.href='index.html';">로그아웃</button>
+                <button id="btn2" onclick="join_out()">회원탈퇴</button>
+        </div>
+        <img src="images/questionface.png" alt="메인화면" style="position: absolute; top: 50px; left: 100px;">
+    </div>
+<script>
+    function join_out(){
+        if(confirm("탈퇴하시겠습니까?\n탈퇴시 모든 정보가 사라집니다.")){
+            alert('탈퇴가 완료 되었습니다.');
+            location.href="index.html"
+        }else{
+            alert('탈퇴가 취소 되었습니다.');
+            location.reload(true);
+        }
+    }
+</script>
+</body>
+</html>
