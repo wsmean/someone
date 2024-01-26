@@ -43,6 +43,16 @@ a{
     margin-left: 5px;
 }
 
+h1{
+    font-size: 40px;
+    padding: 50px;
+}
+
+h3{
+    color: gray;
+    padding-bottom: 70px;
+}
+
 
 #btn1 {
     
@@ -81,6 +91,11 @@ a{
     text-align: center;
 }
 
+.today_question{
+    width: 650px;
+    height: 660px;
+}
+
 #click_question{
     padding: 15px;
     margin: 8px;
@@ -92,3 +107,32 @@ a{
     border-radius: 15%;
 }
 
+#answer{
+    width: 196px;
+    padding: 9px;
+    margin: 8px;
+    border-color: white;
+}
+
+#answer_btn{
+    padding: 9px;
+    color: white;
+    background-color: rgb(255, 126, 181);
+    border-color: rgb(255, 126, 181);
+    border-radius: 15%;
+}
+
+#me, #couple{
+    padding: 20px;
+    
+}
+
+#answer_bar{
+    position: relative;
+    top: 100px;
+}
+
+.chat{
+    width: 650px;
+    height: 660px;
+}

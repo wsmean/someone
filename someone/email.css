@@ -92,3 +92,8 @@ a{
     border-radius: 15%;
 }
 
+textarea {
+    border-color: white;
+    border-radius: 15px;
+    padding: 15px;
+}

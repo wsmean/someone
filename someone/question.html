@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>메인화면</title>
+    <link rel="stylesheet" href="question.css">
+    <title>질문 작성하기</title>
 </head>
 <body>
     <div class="home">
+        <!-- 메뉴 -->
         <div class="menu">
             <div id="profile">
                 <img src="images/profile.png" alt="프로필사진" style="width: 60px;"><br>
@@ -19,15 +20,34 @@
                 <a href="question.html">❤️ 질문 작성하기</a><br>
                 <a href="question_list.html">🧡 질문 목록보기</a><br>
                 <a href="connect.html">💛 연결 및 해제하기</a><br>
-                <a href="email.html">💚 불편 사항 메일 보내기</a><br>
+                <a href="email.html">💚 불편 사항 메일 보내기</a><br>   
             
                 <button id="btn1" onclick="location.href='index.html';">로그아웃</button>
                 <button id="btn2" onclick="join_out()">회원탈퇴</button>
         </div>
+        <!-- 메인화면 -->
         <div class="realize">
-            <img src="images/questionface.png" alt="메인화면">
-            <h2>&lt;2024년 1월 21일&gt; 질문이 생성되지 않았습니다.</h2><br><br>
-            <button id="click_question" onclick="click_question()">질문 받기</button>
+            <div class="today_question">
+                <h1>Today Question</h1>
+                <h3>"요즘 당신의 상태 메시지를 한 줄로 적어본다면?"</h3>
+                <div id="couple">
+                    <img src="images/heart.png" alt="상대방하트" style="width: 40px;">
+                    <span style="vertical-align:middle;">: 바빠서 피곤하다</span>
+                </div>
+                <div id="me">
+                    <img src="images/heart.png" alt="상대방하트" style="width: 40px;">
+                    <span>: 답변이 아직 등록되지 않았습니다.</span>
+                </div>
+                <div id="answer_bar">
+                    <input id="answer" type="text" placeholder="내용을 입력해주세요.">
+                    <input id="answer_btn" type="button" value="답변 등록">
+                </div>
+            </div>
+
+            <div class="chat">
+                <h2>Chat</h2>
+                <div id="chat_box"></div>
+            </div>
         </div>
     </div>
 <script>
