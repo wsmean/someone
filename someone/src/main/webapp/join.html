@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/join.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <script type="text/javascript" src="js/join.js"></script>
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <title>썸원 회원가입</title>
+</head>
+<body>
+    <div class="home">
+        <img src="images/home.jpg" alt="홈이미지" style="height: 100%;"><br>
+	        <h1 id="home_font">회원가입</h1>
+	    </div>
+	    <div class="join_form">
+	        <input id="j_id" type="text" placeholder="아이디">
+	        <button id ="id_check" type="button" onclick="check_id()">중복확인</button><br>
+	        <input type="password" placeholder="비밀번호" id="password1" oninput="password_check()"><br>
+	        <input id="j_pw" type="password" placeholder="비밀번호 확인" oninput="password_check()">
+	        <span id="pwConfirm">비밀번호</span><br>
+	        <input id="j_name" type="text" placeholder="이름"><br>
+	        <input id="j_email" type="email" placeholder="이메일"><br>
+            <button id="j_create" type="button" onclick="join_create()" style="width: 203px;">계정 생성</button><br>
+            <input type="hidden" name="checked_id" value="">
+            
+	    
+    </div>
+
+<script>
+    
+</script>
+</body>
+</html>

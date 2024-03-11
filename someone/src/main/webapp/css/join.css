@@ -1,0 +1,54 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'GoryeongStrawberry';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/GoryeongStrawberry.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin:0px;
+    padding:0px;
+    
+}
+
+input, button{
+    padding: 15px;
+    margin: 8px;
+    border-color: white;
+}
+
+.home {
+    background-color: rgb(255, 209, 232);
+    position: relative;
+    text-align: left;
+
+}
+
+h1{
+    color: rgb(204, 19, 0);
+    font-family: 'GoryeongStrawberry';
+
+}
+
+#home_font{
+    position: absolute;
+    top: 10%;
+    right: 12%;
+    transform: translate( -50%, -50% );
+}
+
+
+.join_form{
+    position: absolute;
+    top: 35%;
+    right: -8%;
+    transform: translate( -50%, -50% );
+}
+
+button {
+    color: white;
+    background-color: rgb(255, 126, 181);
+    border-color: rgb(255, 126, 181);
+
+}

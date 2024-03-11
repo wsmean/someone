@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/question_list.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="js/question_list.js"></script>
+    <title>질문 작성하기</title>
+</head>
+<body>
+    <div class="home">
+        <div class="menu">
+            <div id="profile">
+                <img src="images/profile.png" alt="프로필사진" style="width: 60px;"><br>
+                <div id="hi">
+			         <p id="profile_id"></p> 님 방문을 환영해요!
+                </div>
+            </div>
+            
+                <a href="question.html">❤️ 질문 작성하기</a><br>
+                <a href="question_list.html">🧡 질문 목록보기</a><br>
+                <a href="connect.html">💛 연결 및 해제하기</a><br>
+                <a href="email.html">💚 불편 사항 메일 보내기</a><br>   
+
+                <button id="btn1" onclick="location.href='index.html';">로그아웃</button>
+                <button id="btn2" onclick="join_out()">회원탈퇴</button>
+        </div>
+        <div class="realize">
+            <div class="today_question">
+	            <h1>List</h1>
+	            <table>
+				  <tr>
+				    <th>질문</th>
+				    <th>작성일자</th>
+				  </tr>
+				  <tr>
+				    <td>서로의 호칭은?</td>
+				    <td>2024년 2월 13일</td>
+				  </tr>
+				</table>
+
+            </div>
+            
+        </div>
+    </div>
+<script>
+    function join_out(){
+        if(confirm("탈퇴하시겠습니까?\n탈퇴시 모든 정보가 사라집니다.")){
+            alert('탈퇴가 완료 되었습니다.');
+            location.href="index.html"
+        }else{
+            alert('탈퇴가 취소 되었습니다.');
+            location.reload(true);
+        }
+    }
+
+</script>
+</body>
+</html>

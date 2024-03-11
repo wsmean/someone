@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'GoryeongStrawberry';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/GoryeongStrawberry.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin:0px;
+    padding:0px;
+    font-family: 'GoryeongStrawberry';
+}
+
+.home {
+    width: 100%;
+    height: 660px;
+    background-color: rgb(255, 209, 232);
+    position: relative;
+}
+
+.menu{
+    position: absolute;
+    background-color: white;
+    width: 380px;
+    height: 100%;
+}
+
+#profile{
+    box-shadow:2px 3px 5px 0px;
+    width: 80%;;
+    padding: 10px;
+    margin-left: 25px;
+    border-radius: 5%;
+    
+}
+
+a{
+    display: inline-block;
+    text-decoration:none;
+    color: inherit;
+    padding: 25px;
+    font-size:x-large;
+    margin-left: 5px;
+}
+
+
+#btn1 {
+    
+    color: white;
+    background-color: rgb(255, 126, 181);
+    border-color: rgb(255, 126, 181);
+    padding: 9px;
+    margin: 8px;
+    font-size:medium;
+    border-radius: 15%;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    
+}
+
+#btn2 {
+    color: white;
+    background-color: rgb(255, 126, 181);
+    border-color: rgb(255, 126, 181);
+    padding: 9px;
+    margin: 8px;
+    font-size:medium;
+    border-radius: 15%;
+    position: absolute;
+    bottom: 20px;
+    right:20px;
+}
+
+#send {
+	color: white;
+    background-color: rgb(255, 126, 181);
+    border-color: rgb(255, 126, 181);
+    padding: 9px;
+    margin: 8px;
+    font-size:medium;
+    border-radius: 15%;
+    position: absolute;
+    left:500px;
+}
+
+
+.realize{
+    position: absolute; 
+    width: 1200px;
+    height: 660px;
+    left:390px;
+    text-align: center;
+}
+
+#click_question{
+    padding: 15px;
+    margin: 8px;
+    width: 200px;
+    font-size: larger;
+    color: white;
+    background-color: rgb(255, 126, 181);
+    border-color: rgb(255, 126, 181);
+    border-radius: 15%;
+}
+
+textarea {
+    border-color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.today_question{
+    width: 650px;
+    height: 660px;
+}
+
+#profile_id{
+	display:inline-block;
+}
